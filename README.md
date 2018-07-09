@@ -12,7 +12,6 @@
 
 ## 스텍
 1. Node.js 1/2
-1. Vue.js (Juqery) 0/2
 1. CSS, Html 0/2
 
 ## 의존성 모듈 목록
