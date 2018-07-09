@@ -1,0 +1,25 @@
+{
+  "name": "wikidoki",
+  "version": "1.0.0",
+  "description": "누구나 무료로 사용할 수 있는 위키 시스템",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonjong93/wikidoki.git"
+  },
+  "author": "Moon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moonjong93/wikidoki/issues"
+  },
+  "homepage": "https://github.com/moonjong93/wikidoki#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}
