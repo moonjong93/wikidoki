@@ -1,10 +1,10 @@
 "use strict";
 
-let fs        = require("fs")
+let fs      = require("fs")
 , path      = require("path")
 , Sequelize = require("sequelize")
 , env       = process.env.NODE_ENV || "dev"
-, config    = require('../config.json')[env]
+, config    = require('../configs/database.json')[env]
 , sequelize = new Sequelize(config.database, config.username, config.passsword, {
     host: config.host,
     dialect: config.dialect,
