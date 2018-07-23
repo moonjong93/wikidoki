@@ -1,5 +1,4 @@
-var models = require('./')
-module.exports = function(sequelize, DataTypes) {
+export default function(sequelize, DataTypes) {
     var Historys = sequelize.define('Historys', {
         documnet_title : { type : DataTypes.STRING(255), allowNull: false, references:{
             model: 'documents', key: 'title'
